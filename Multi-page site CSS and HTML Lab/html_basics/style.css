@@ -10,13 +10,6 @@ body {
         color: white;
     }
 
-    .titleHeader {
-        font-size: 150%;
-        text-align: center;
-        margin-top: 100px;
-        margin-bottom: 100px;
-    }
-
     .sectionHeader {
       font-size: 125%;              
     }
@@ -24,6 +17,7 @@ body {
     .sectionCountry {
         text-align: center
     }
+
     div.frame {
         width:315px;
         height:90px;
@@ -118,6 +112,51 @@ body {
         justify-content: center;
     }
 
+    .titleHeader {
+        text-align: center;
+        margin-top: 100px;
+        font-weight: bold;
+        margin-bottom: 50px;
+    }
+
+
+    
+    h2 {
+        font-weight: bold;
+        font-size: medium;
+    }
+
+    span {
+        margin-left:100%;
+    }
+    .date{
+        margin-left:100%;
+
+    }
+
+    .location{
+        text-align: right;
+        font-style: italic;
+    }
+    
+    .position{
+        text-align: left;
+        font-style: italic;
+    }
+
+    .contact{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+
+    .row ul {
+        list-style-type: circle;
+        align-items: left;
+        background-color:transparent;
+        font-size: small;
+        padding: 50px 25px;   
+    }
     
     
 
